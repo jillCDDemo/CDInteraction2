@@ -1,0 +1,84 @@
+html,body{
+	margin: 0;
+	padding: 0;
+	/*overflow-x: hide;*/
+
+	/*Commenting shortcut:  Ctrl + /*/
+
+
+}
+
+header{
+	background-color: darkblue;
+	color: white;
+	height: 4rem;
+	top: 0;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+footer{
+	background-color: darkblue;
+	color: white;
+	height: 4rem;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+}
+
+main{
+	padding-bottom: 100px;
+}
+
+/*Element class selector*/
+p.classSelector{
+	color: blue;
+	font-size: 20px;
+}
+
+/*id selector*/
+#target1{
+	text-decoration: underline;
+}
+
+/*class selectors*/
+#image1{
+	height: 400px;
+	width: 400px;
+	/*border-style: solid;*/
+	border-style: dashed;
+	border-color: brown;
+	border-width: 10px;
+
+}
+
+#image1:hover{
+	border-style: solid;
+}
+
+#image2{
+	position: relative;
+	left: 50px;
+	top: 100px;
+	height: 400px;
+	width: 400px;
+}
+
+.button1{
+	height: 200px;
+	width: 200px;
+	/*background-color: yellow;*/
+	background-image: url("https://cdn.pixabay.com/photo/2015/04/23/22/00/tree-736885__480.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+
+.button1:active{
+	/*background-color: grey;*/
+	background-image: url("https://i.redd.it/v1fvin01ynv51.jpg");
+	background-size: 100%;
+}
+
+
